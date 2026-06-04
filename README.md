@@ -1,4 +1,4 @@
-# Nexora — Portfolio de estudio de desarrollo web
+# EXP Labs — Portfolio de estudio de desarrollo web
 
 Sitio web de portfolio de una sola página para una empresa de desarrollo web,
 inspirado en estéticas modernas y audaces (estilo trucknroll.com): tipografía
