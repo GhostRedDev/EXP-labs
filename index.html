@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Nexora — Estudio de desarrollo web. Diseñamos y construimos productos digitales rápidos, escalables y memorables." />
+  <title>Nexora — Estudio de Desarrollo Web</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Cursor glow -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="logo">
+        <span class="logo-mark">◆</span> Nexora
+      </a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajo">Trabajo</a>
+        <a href="#proceso">Proceso</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#contacto" class="nav-cta">Hablemos</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-inner">
+      <div class="hero-badge reveal">● Disponible para nuevos proyectos · 2026</div>
+      <h1 class="hero-title reveal">
+        Construimos webs que<br />
+        <span class="accent">venden, escalan</span> y<br />
+        no te dan vergüenza.
+      </h1>
+      <p class="hero-sub reveal">
+        Somos un estudio de desarrollo web. Convertimos ideas en productos
+        digitales rápidos, hermosos y listos para crecer contigo.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#contacto" class="btn btn-primary">Empezar un proyecto →</a>
+        <a href="#trabajo" class="btn btn-ghost">Ver nuestro trabajo</a>
+      </div>
+      <div class="hero-marquee">
+        <div class="marquee-track">
+          <span>React</span><span>•</span><span>Next.js</span><span>•</span>
+          <span>Node</span><span>•</span><span>TypeScript</span><span>•</span>
+          <span>Tailwind</span><span>•</span><span>Figma</span><span>•</span>
+          <span>Shopify</span><span>•</span><span>WordPress</span><span>•</span>
+          <span>React</span><span>•</span><span>Next.js</span><span>•</span>
+          <span>Node</span><span>•</span><span>TypeScript</span><span>•</span>
+          <span>Tailwind</span><span>•</span><span>Figma</span><span>•</span>
+          <span>Shopify</span><span>•</span><span>WordPress</span><span>•</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="stats">
+    <div class="container stats-grid">
+      <div class="stat reveal"><strong data-count="120">0</strong><span>Proyectos entregados</span></div>
+      <div class="stat reveal"><strong data-count="98">0</strong><span>% clientes felices</span></div>
+      <div class="stat reveal"><strong data-count="40">0</strong><span>Marcas activas</span></div>
+      <div class="stat reveal"><strong data-count="8">0</strong><span>Años de experiencia</span></div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section class="section" id="servicios">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Qué hacemos</span>
+        <h2>Servicios que mueven la aguja</h2>
+        <p>De la idea al deploy. Cubrimos todo el ciclo de vida de tu producto digital.</p>
+      </div>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon">⚡</div>
+          <h3>Desarrollo Web</h3>
+          <p>Sitios y apps a medida con Next.js y React. Rápidos, accesibles y SEO-ready desde el primer commit.</p>
+          <ul><li>Landing pages de alto impacto</li><li>Web apps & dashboards</li><li>Headless & Jamstack</li></ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">✦</div>
+          <h3>Diseño UI/UX</h3>
+          <p>Interfaces que la gente entiende a la primera. Prototipos en Figma listos para validar y construir.</p>
+          <ul><li>Design systems</li><li>Prototipado interactivo</li><li>Auditoría de usabilidad</li></ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">◉</div>
+          <h3>E-commerce</h3>
+          <p>Tiendas que convierten. Shopify, headless commerce y pasarelas de pago optimizadas para vender.</p>
+          <ul><li>Shopify & Stripe</li><li>Optimización de conversión</li><li>Integraciones a medida</li></ul>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon">↗</div>
+          <h3>Performance & SEO</h3>
+          <p>Core Web Vitals en verde y posiciones que importan. Velocidad real, no promesas.</p>
+          <ul><li>Optimización de Lighthouse</li><li>SEO técnico</li><li>Analítica & tracking</li></ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trabajo / Portfolio -->
+  <section class="section dark" id="trabajo">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Trabajo seleccionado</span>
+        <h2>Proyectos que nos enorgullecen</h2>
+        <p>Una muestra de lo que construimos para marcas que se atreven.</p>
+      </div>
+      <div class="work-grid">
+        <a class="work-item reveal" href="#contacto" style="--g:linear-gradient(135deg,#ff5f3a,#ff9d2f)">
+          <div class="work-meta"><span>E-commerce</span><span>2026</span></div>
+          <h3>Volta Store</h3>
+          <p>Tienda headless con Shopify + Next.js. +38% de conversión.</p>
+          <span class="work-link">Ver caso →</span>
+        </a>
+        <a class="work-item reveal" href="#contacto" style="--g:linear-gradient(135deg,#6c5ce7,#a29bfe)">
+          <div class="work-meta"><span>SaaS</span><span>2025</span></div>
+          <h3>Finhub Dashboard</h3>
+          <p>Panel financiero en tiempo real para 12k usuarios.</p>
+          <span class="work-link">Ver caso →</span>
+        </a>
+        <a class="work-item reveal" href="#contacto" style="--g:linear-gradient(135deg,#00b894,#55efc4)">
+          <div class="work-meta"><span>Branding + Web</span><span>2025</span></div>
+          <h3>Mora Café</h3>
+          <p>Identidad y web para una cadena de cafeterías de especialidad.</p>
+          <span class="work-link">Ver caso →</span>
+        </a>
+        <a class="work-item reveal" href="#contacto" style="--g:linear-gradient(135deg,#0984e3,#74b9ff)">
+          <div class="work-meta"><span>Landing</span><span>2024</span></div>
+          <h3>Atlas Launch</h3>
+          <p>Lanzamiento de producto con 0→50k visitas en una semana.</p>
+          <span class="work-link">Ver caso →</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proceso -->
+  <section class="section" id="proceso">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Cómo trabajamos</span>
+        <h2>Un proceso simple y transparente</h2>
+        <p>Sin sorpresas. Sabes en qué punto está tu proyecto en todo momento.</p>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span class="step-num">01</span><h3>Descubrimiento</h3><p>Entendemos tu negocio, tus usuarios y tus objetivos antes de escribir una línea de código.</p></div>
+        <div class="step reveal"><span class="step-num">02</span><h3>Diseño</h3><p>Prototipamos y validamos la experiencia. Ves y apruebas antes de construir.</p></div>
+        <div class="step reveal"><span class="step-num">03</span><h3>Desarrollo</h3><p>Construimos con código limpio, pruebas y entregas iterativas semanales.</p></div>
+        <div class="step reveal"><span class="step-num">04</span><h3>Lanzamiento</h3><p>Desplegamos, medimos y optimizamos. Te acompañamos también después del go-live.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonios -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">Testimonios</span>
+        <h2>Lo que dicen nuestros clientes</h2>
+      </div>
+      <div class="quotes">
+        <blockquote class="reveal">
+          <p>“Nexora no solo entregó una web increíble, entendió nuestro negocio mejor que nosotros. Las ventas online se dispararon.”</p>
+          <footer><strong>Lucía Fernández</strong><span>CEO, Volta Store</span></footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>“Profesionales de verdad. Plazos cumplidos, comunicación impecable y un producto final que superó lo prometido.”</p>
+          <footer><strong>Diego Ramírez</strong><span>CTO, Finhub</span></footer>
+        </blockquote>
+        <blockquote class="reveal">
+          <p>“Pasamos de una idea en una servilleta a un producto en producción en seis semanas. Brutal.”</p>
+          <footer><strong>Marta Ruiz</strong><span>Fundadora, Mora Café</span></footer>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section class="section dark" id="nosotros">
+    <div class="container about-grid">
+      <div class="reveal">
+        <span class="eyebrow">Nosotros</span>
+        <h2>Un equipo pequeño<br />con ambiciones grandes</h2>
+        <p>Somos diseñadores e ingenieros obsesionados con el detalle. Creemos que una gran web es la suma de mil decisiones bien tomadas: la velocidad de carga, la curva de una animación, el copy de un botón.</p>
+        <p>No vendemos plantillas. Construimos productos a medida que tu negocio realmente necesita, con tecnología moderna y soporte que de verdad responde.</p>
+        <a href="#contacto" class="btn btn-primary">Trabaja con nosotros →</a>
+      </div>
+      <div class="about-tags reveal">
+        <span>Código limpio</span><span>Mobile-first</span><span>Accesibilidad</span>
+        <span>Performance</span><span>SEO técnico</span><span>Soporte real</span>
+        <span>Entregas semanales</span><span>Diseño a medida</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / Contacto -->
+  <section class="section cta-section" id="contacto">
+    <div class="container cta-inner reveal">
+      <span class="eyebrow">¿Listo para empezar?</span>
+      <h2>Cuéntanos tu proyecto.<br />Te respondemos en 24h.</h2>
+      <p>Sin compromisos ni tecnicismos. Solo una conversación honesta sobre cómo llevar tu idea al siguiente nivel.</p>
+      <form class="cta-form" id="contactForm">
+        <div class="form-row">
+          <input type="text" name="nombre" placeholder="Tu nombre" required />
+          <input type="email" name="email" placeholder="Tu email" required />
+        </div>
+        <textarea name="mensaje" placeholder="Cuéntanos sobre tu proyecto..." rows="4" required></textarea>
+        <button type="submit" class="btn btn-primary btn-block">Enviar mensaje →</button>
+        <p class="form-status" id="formStatus" hidden>¡Gracias! Te contactaremos pronto. 🚀</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="logo"><span class="logo-mark">◆</span> Nexora</a>
+        <p>Estudio de desarrollo web. Construimos lo que tu negocio necesita.</p>
+      </div>
+      <div class="footer-cols">
+        <div><h4>Empresa</h4><a href="#servicios">Servicios</a><a href="#trabajo">Trabajo</a><a href="#nosotros">Nosotros</a></div>
+        <div><h4>Contacto</h4><a href="mailto:hola@nexora.dev">hola@nexora.dev</a><a href="#contacto">Formulario</a></div>
+        <div><h4>Social</h4><a href="#">Instagram</a><a href="#">LinkedIn</a><a href="#">Dribbble</a></div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>© 2026 Nexora Studio. Todos los derechos reservados.</span>
+      <span>Hecho con ☕ y código.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
